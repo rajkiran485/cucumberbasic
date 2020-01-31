@@ -12,7 +12,8 @@
          <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
          
-    <plugin>
+    <plugins>
+     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
@@ -20,7 +21,9 @@
             <source>1.8</source>
             <target>1.8</target>
         </configuration>
-    </plugin>
+     </plugin>
+    </plugins>
+         
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
@@ -50,9 +53,5 @@
             <version>1.2.4</version>
         </dependency>
 
-    </dependencies>
-         <plugins>
-
-
-    
+    </dependencies> 
 </project>
